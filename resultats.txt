@@ -1,0 +1,55 @@
+=======================================================
+--- QUESTION 1 : VERIFICATION DU GRAPHE ---
+Nombre de sommets : 13
+Nombre d'arretes  : 21
+=======================================================
+
+--- QUESTION 2 : VILLES LES PLUS CONNECTEES ---
+- Lyon       : 5 connexions
+- Zug        : 5 connexions
+- Bale       : 4 connexions
+- Brest      : 4 connexions
+- Nice       : 4 connexions
+- Atlas      : 3 connexions
+- Rif        : 3 connexions
+- Souss      : 3 connexions
+- Balboa     : 3 connexions
+- Colon      : 2 connexions
+- Tanger     : 2 connexions
+- Oujda      : 2 connexions
+- Fes        : 2 connexions
+
+--- QUESTION 3 : SOLDE NET PAR VILLE (Recu - Envoye en kEUR) ---
+- Bale       (Suisse ) : Recu = 120.0 | Envoye =  50.0 | Solde =  +70.0 kEUR
+- Balboa     (Panama ) : Recu = 140.0 | Envoye =  70.0 | Solde =  +70.0 kEUR
+- Zug        (Suisse ) : Recu = 175.0 | Envoye = 110.0 | Solde =  +65.0 kEUR
+- Lyon       (France ) : Recu =  74.0 | Envoye =  72.0 | Solde =   +2.0 kEUR
+- Oujda      (Maroc  ) : Recu =   8.0 | Envoye =   6.0 | Solde =   +2.0 kEUR
+- Fes        (Maroc  ) : Recu =   6.0 | Envoye =   5.0 | Solde =   +1.0 kEUR
+- Rif        (Maroc  ) : Recu =  25.0 | Envoye =  25.0 | Solde =   +0.0 kEUR
+- Tanger     (Maroc  ) : Recu =   5.0 | Envoye =   8.0 | Solde =   -3.0 kEUR
+- Colon      (Panama ) : Recu =  80.0 | Envoye =  90.0 | Solde =  -10.0 kEUR
+- Souss      (Maroc  ) : Recu =  20.0 | Envoye =  45.0 | Solde =  -25.0 kEUR
+- Nice       (France ) : Recu =  42.0 | Envoye =  73.0 | Solde =  -31.0 kEUR
+- Atlas      (Maroc  ) : Recu =   0.0 | Envoye =  70.0 | Solde =  -70.0 kEUR
+- Brest      (France ) : Recu =  18.0 | Envoye =  89.0 | Solde =  -71.0 kEUR
+
+--- QUESTION 4 : CYCLES IDENTIFIES ---
+1. Cycle Marocain local : Tanger -> Oujda -> Fes -> Tanger
+2. Cycle Francais       : Lyon -> Nice -> Brest -> Lyon
+3. Boucles cluster Suisse-Panama (4 comptes) :
+   - Zug -> Colon -> Balboa -> Zug
+   - Zug -> Bale  -> Balboa -> Zug
+
+--- QUESTION 5 : FLUX ENTRE PAYS ---
+- France  -> Suisse  : 195 kEUR
+- Suisse  -> Panama  : 130 kEUR
+- Maroc   -> France  : 95 kEUR
+- Panama  -> Suisse  : 70 kEUR
+
+--- QUESTION 6 : VIREMENTS INTERNES PAR PAYS ---
+- Maroc   : 64 kEUR
+- France  : 39 kEUR
+- Suisse  : 30 kEUR
+- Panama  : 90 kEUR
+=======================================================
