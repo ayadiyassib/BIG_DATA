@@ -25,8 +25,8 @@ Ce projet consiste à analyser un réseau de transactions financières internati
 
 Vous pouvez accéder directement aux fichiers du dépôt en cliquant sur ces liens :
 
-* 📄 [**`Devoir1GraphX.scala`**](./Devoir1GraphX.scala) : Contient tout le code source Scala Spark GraphX commenté.
-* 📄 [**`resultats.txt`**](./resultats.txt) : Trace complète et brute de l'exécution dans le terminal Spark.
+* 📄 [**`Devoir1_GraphX/Devoir1GraphX.scala`**](Devoir1_GraphX/Devoir1GraphX.scala) : Contient tout le code source Scala Spark GraphX commenté.
+* 📄 [**`Devoir1_GraphX/resultats.txt`**](Devoir1_GraphX/resultats.txt) : Trace complète et brute de l'exécution dans le terminal Spark.
 
 ---
 
